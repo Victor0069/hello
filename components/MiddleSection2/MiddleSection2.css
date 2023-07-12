@@ -1,0 +1,172 @@
+.middleSection2 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.middleSection2 > h1 {
+  color: #7abbff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.middleSection2 > h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: x-large;
+  margin: 20px 40px;
+  font-weight: 100;
+  width: 1200px;
+}
+
+.registerButton {
+  width: 350px;
+  height: 100px;
+  background-color: #032238;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  word-spacing: 1rem;
+  color: white;
+  font-weight: 500;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.regButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.conclusion > h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: x-large;
+  margin: 20px 40px;
+  font-weight: 100;
+  width: 1200px;
+}
+.conclusion > h1 {
+  color: #7abbff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.conclusion {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 0 150px; */
+  margin-top: 50px;
+}
+.signUp > h1 {
+  color: #7abbff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.signUp > h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: x-large;
+  margin: 30px 40px;
+  font-weight: 100;
+  width: 1200px;
+}
+
+.dropDownContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 670px) {
+  .middleSection2 > h3 {
+    font-size: large;
+    width: 75%;
+  }
+  .registerButton {
+    width: 200px;
+    height: 70px;
+    font-size: large;
+  }
+  .signUp > h3{
+    font-size: large;
+    width: 75%;
+  }
+  .conclusion > h3 {
+    font-size: large;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .middleSection2 > h3 {
+    font-size: large;
+    width: 75%;
+  }
+  .signUp > h3{
+    font-size: large;
+    width: 75%;
+  }
+  .conclusion > h3 {
+    font-size: large;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .middleSection2 > h3 {
+    font-size: small;
+    width: 75%;
+  }
+  .middleSection2 > h1 {
+    font-size: large;
+  }
+ 
+  .registerButton {
+    width: 188px;
+    height: 58px;
+    font-size: large;
+    word-spacing: 0;
+  }
+  .signUp > h3{
+    font-size: small;
+    width: 75%;
+  }
+  .conclusion > h3 {
+    font-size: small;
+    width: 75%;
+  }
+  .signUp > h1{
+    font-size: large;
+  }
+  .conclusion > h1{
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 1250px){
+    .middleSection2 > h3 {
+        width: 90%;
+      }
+      .signUp > h3{
+        width: 90%;
+      }
+      .conclusion > h3{
+        width: 90%;
+      }
+}
